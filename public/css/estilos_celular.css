@@ -1,0 +1,136 @@
+
+/*ESTILOS RESPONSIVE - VISTA CELULAR - MAX-WIDTH : 575PX*/
+/* @font-face {
+    font-family: proxima-nova;
+    src:('../fonts/Proxima Nova Font.otf');
+} */
+
+@media screen and (max-width: 575px) {
+
+    /*********************************************************************************************/
+    /********************************************INICIO NAV***************************************/
+    /*********************************************************************************************/
+    
+    .navbar-toggler{ /*Estilos del icono pricipal nav*/
+        border: none !important;
+        margin-right: .1em;
+    }
+
+    .navbar-toggler-icon{
+        margin-right: .1em;
+    }
+
+    .form-control{ /*Estilos del formulario*/
+        border-radius: 16px !important;
+        margin-right: 1em;
+        margin-left: .1em;
+    }
+    
+    .bi-cart2{ /*Estilos del icono carrito de compras*/
+        width: 20px;
+        height: 20px;
+        color: black;
+        margin-right: 1em;
+    }
+    .bi-geo-alt{ /*Estilos del icono ubicacion*/
+        width: 14px;
+        height: 14px;
+    }
+    .bi-chevron-right{ /*Estilos del icono flecha derecha*/
+        width: 14px;
+        height: 14px;
+    }
+    .navbar-brand{  /*Estilos del texto "Ingresá tu código postal" dentro del nav */
+        font-size: 14px !important;
+        margin-right: 0 !important;
+    }
+
+    .navbar-toggler:focus{ /*Estilos del icono nav al hacer click*/
+        box-shadow: none !important; /*Sombra deshabilitada*/
+    }
+
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container_ubicacion_texto_flecha{
+        display: block;
+        padding-top: .4em;
+        padding-left: .8em;
+        padding-bottom: .4em;
+        padding-right: .4em;
+    }
+
+    /*INICIO OFFCANCAS*/
+    .offcanvas-header{
+        background: #ffdb15!important;
+        padding: 0;
+        align-items: start !important;
+    }
+
+    .offcanvas{
+        width: 250px !important;
+    }
+
+    .offcanvas-title{
+        font-size: 14px;
+        font-size: bold;
+    }
+
+    .offcanvas_parrafo{
+        font-size: 12px;
+        margin-right: .5em;
+    }
+
+    .bi-person-circle{
+       width: 70px;
+       height: 70px;
+       margin-top: 0.5em;
+       margin-left: 1em;
+       margin-right: 0.8em;
+       color: #e0c01e;      
+    }
+    .offcanvas_header_text{
+        padding-top: 1em;
+    }
+    .offcanvas-body{
+        height: 100vh !important;
+    }
+    .iconos_offcanvas{
+        width: 20px;
+        height: 20px;
+        margin-left: .5em;
+        margin-right: 1.5em;
+        color: #444444;
+    }
+    .Linea_borde_offcanvas{
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .boton_centrado{
+       display: flex;
+       justify-content: center;
+    }
+    .nav-link{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-link:hover{
+        color: #3483fa;
+    }
+
+    .btn{
+        width: 85%;
+    }
+
+    /*FIN OFFCANVAS*/
+
+    /*********************************************************************************************/
+    /********************************************FIN NAV******************************************/
+    /*********************************************************************************************/
+
+    
+
+
+
+}

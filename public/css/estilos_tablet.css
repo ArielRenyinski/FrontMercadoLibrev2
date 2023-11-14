@@ -1,0 +1,146 @@
+
+/*ESTILOS RESPONSIVE - VISTA TABLET - MIN-WIDTH:576PX AND MAX-WIDTH:992PX*/
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    
+    /*********************************************************************************************/
+    /********************************************INICIO NAV***************************************/
+    /*********************************************************************************************/
+    .offcanvas-backdrop.show{ /*Opacidad del body que se genera al apretar en el icono del nav*/
+        opacity: 0 !important ;
+    }
+
+    .navbar-toggler:focus{ /*Estilos del icono nav al hacer click*/
+        box-shadow: none !important; /*Sombra deshabilitada*/
+    }
+    
+    .logo_tablet_mercadolibre{ /*Estilos del Logo Version tablet*/
+        width: 44px;
+        height: 32px;
+    }
+    
+    .navbar-toggler{ /*Estilos del icono pricipal nav*/
+        border: none !important;
+        margin-right: .1em;
+    }
+    .navbar-toggler-icon{
+        margin-right: .1em !important;
+    }
+
+    .bi-cart2{ /*Estilos del icono carrito de compras*/
+        width: 24px;
+        height: 24px;
+        color: #4d3c37;
+        margin-right: 1em;
+    }
+    .container_ubicacion_texto_flecha{ 
+        display: block;
+        padding-top: .4em;
+        padding-left: .8em;
+        padding-bottom: .4em;
+        padding-right: .4em;
+    }
+    .bi-geo-alt{ /*Estilos del icono ubicacion*/
+        width: 13px;
+        width: 13px;
+        color: #4d3c37;
+    }
+    .bi-chevron-right{ /*Estilos del icono flecha derecha*/
+        width: 13px;
+        height: 13px;
+        color: #736C28;
+    }
+    .navbar-brand{  /*Estilos del texto "Ingresá tu código postal" dentro del nav */
+        font-size: 13px !important;
+        margin-right: 0 !important;
+        color: #736C28 !important;
+    }
+
+    /*estilos Collapse (Despligue del menu)*/
+    .card{
+        background: #fff159 !important;
+        margin: 0 !important;
+        padding: 20px !important;
+        border-radius: 0 !important;
+        border: none !important;
+    }
+    .collapse{
+        width: 100vw !important;
+    }
+
+    /*estilos Collapse Header*/
+    .collapse-header{
+        background: #fff159 !important;
+        margin: 0px !important;
+        align-items: start !important;
+    }
+
+    .collapse_header_text{
+        padding-top: 0em;
+    }
+
+    .collapse-title{
+        font-size: 18px;
+        font-size: bold;
+        color: #373734;
+        margin-bottom: 0;
+        margin-top: .5em;
+    }
+
+    .collapse_parrafo{
+        font-size: 16px;
+        margin-right: .5em;
+        color: #948C34;
+    }
+    .bi-person-circle{
+        width: 70px;
+        height: 70px;
+        margin-top: 0.2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        color: rgb(182, 182, 182);   
+     }
+     .botones_centrados{ /*Estilos de ambos botenes (Ingresar/Crear)*/
+        display: flex;
+        justify-content: center;
+        margin-top: .3em;
+     }
+     .boton_ingresar_tablet{
+        width: 240px;
+        margin-right: 1em;
+        margin-left: 100px;
+     }
+     .boton_crear_cuenta_tablet{
+        width: 240px;
+        margin-right: 70px;
+        color: #3483fa;
+     }
+    /*Fin estilos Collapse Header*/
+
+    /*estilos Collapse Body*/
+    .collapse-body{
+        background: rgb(255, 255, 255);
+        padding: 1em;
+    }
+    .iconos_collapse{
+        width: 20px;
+        height: 20px;
+        margin-left: .5em;
+        margin-right: 1.5em;
+        color: #444444;
+    }
+    .Linea_borde_collapse{
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .nav-link{ /*Estilos de la lista Collapse*/
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-link:hover{ /*Estilos de la lista Collapse al hacer click*/
+        color: #3483fa;
+    }
+     
+    /*********************************************************************************************/
+    /********************************************FIN NAV******************************************/
+    /*********************************************************************************************/
+}

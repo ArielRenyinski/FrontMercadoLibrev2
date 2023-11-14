@@ -1,0 +1,101 @@
+/*ESTILOS RESPONSIVE - VISTA DESKTOP - MIN-WIDTH:992PX*/
+
+@media screen and (min-width: 992px){
+
+    /*********************************************************************************************/
+    /********************************************INICIO NAV***************************************/
+    /*********************************************************************************************/
+    .nav_desktop{
+        width: 100% !important;
+    }
+    .logo_desktop_mercadolibre{ /*Estilos Logo Mercado Libre*/
+        width: 130px;
+        height: 34px;
+        margin-top: 1px;
+        margin-left: 5em !important;
+        margin-right: 1em !important;
+        margin-bottom: 1px !important;
+    }
+    .form-control{
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        margin-top: 1px;
+        margin-bottom: 1px !important;
+    }
+    .formulario_busqueda_desktop{
+        width: 600px !important;
+        margin-bottom: 1px !important;
+    }
+    .publicidad_disney_mercadolibre{
+        width: 340px;
+        height: 38px;
+        margin-top: 1px;
+        margin-right: 5em !important;
+        margin-bottom: 1px !important;
+    }
+
+    .bi-geo-alt{ /*Estilos del icono ubicacion*/
+        width: 25px;
+        height: 25px;
+        color: #39814e;
+    }
+    .navbar-brand{ /*Estilos de (Ingresa tu codigo postal)*/
+        font-size: 14px;
+        color: #333333;
+        line-height: 1em;
+        margin-left: 5px;
+    }
+    span{ /*Estilos de (Ingresar)*/
+        color: #7f7832;
+        font-size: 12px;
+    }
+    .geo_ingresar{ /*Estilos que incluyen al icono de Geolocalizacion y el Texto Ingresar Codigo postal*/
+        margin-left: 5em;
+        margin-top: .5em;
+    }
+    .nav-item{
+        list-style:none;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .nav-link{
+        color: #be923a !important;
+        font-size: 14px;
+    }
+    .bi-cart2{
+        color: #333334!important;
+        width: 25px;
+        height: 22px;
+        margin-right:5em;
+        margin-left: 10px !important;
+        margin-top: 1em;
+    }
+    .dropdown-item{
+        color: #fff !important;
+        font-size: 14px !important;
+        margin-left: 1em !important;
+        margin-top: .5em !important;
+    }
+    .dropdown-menu{
+        background: #333333 !important;
+    }
+    .dropdown-item:hover{
+        color: #3483fa !important;
+        background: None !important;
+    }
+    .nav-link2{
+        color: #333334 !important;
+        font-weight: 400 !important;
+    }
+    .container_crear_Ingresar{
+        margin-top: 1em;
+    }
+    .dropdown-toggle::after{ /*Estilos para la flecha que esta a la derecha de categorias*/
+        margin-left: 1px !important;
+    } 
+    
+    /*********************************************************************************************/
+    /********************************************FIN NAV******************************************/
+    /*********************************************************************************************/
+}
+
